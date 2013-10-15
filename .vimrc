@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 execute pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
