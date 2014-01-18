@@ -12,3 +12,13 @@ set laststatus=2
 " " Use 256 colours (Use this setting only if your terminal supports 256
 " colours)
 set t_Co=256
+
+set hlsearch
+
+set incsearch
+
+set number
+
+let g:molokai_original = 1
+set cursorline  "highlight the line cursor is on
+highlight CursorLine guibg=darkgray ctermbg=darkgray
